@@ -5,6 +5,7 @@ int idade;
 
 printf("Insira sua idade: ");
 scanf("%d", &idade);
+getchar();
 
 
     if(idade>=18){
@@ -16,7 +17,6 @@ scanf("%d", &idade);
         printf("Você não está apto para solicitar sua CNH!");
         }
 
-getchar();    
 return 0;
 
 }
