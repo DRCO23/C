@@ -16,6 +16,7 @@ scanf("%d", &idade);
         printf("Você não está apto para solicitar sua CNH!");
         }
 
+getchar();    
 return 0;
 
 }
